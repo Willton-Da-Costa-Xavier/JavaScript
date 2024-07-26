@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratame de Dados</title>
+
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //x.length para ter o tamanho
+        // var nome = window.prompt("Qual e o seu nome?")
+        // document.write(`Ola <stron>${nome}</strong>, seu nome tem ${nome.length} tantas letras.<br/>`)
+        // document.write(`Seu nome em maiusculo e ${nome.toUpperCase()}.<br/>`)
+        // document.write(`Seu nome em minusculo e ${nome.toLowerCase()}`)
+
+
+        var salario = window.prompt("Digita o seu salario")
+
+        // para obter currency em js e valor.toLocaleString("pt-BR", {style: "currency", currency: "USD"})
+
+        alert(salario.toLocaleString("pt-BR", {style: "currency", currency: "USD"}))
+    </script>
+</body>
+</html>
